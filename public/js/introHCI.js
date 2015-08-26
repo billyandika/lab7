@@ -25,19 +25,22 @@ function initializePage() {
 		function addProjectDetails(project_json) {
 			// We need to compute a display string for the date
 			// Search 'toLocaleDateString' online for more details.
-			// var date_obj = new Date(project_json['date']);
-			// var options = {
-			// 	weekday: "long",
-			// 	year: "numeric",
-			// 	month: "long",
-			// 	day: "numeric"
-			// };
-			// var display_date = date_obj.toLocaleDateString('en-US', options);
+			var date_obj = new Date(project_json['date']);
+			var options = {
+				weekday: "long",
+				year: "numeric",
+				month: "long",
+				day: "numeric"
+			};
+			var display_date = date_obj.toLocaleDateString('en-US', options);
 
 			// compose the HTML
 			var new_html =
-				'<div class="project-date">'+project_json['eid']+'</div>'+
-				'<div class="project-summary">'+project_json['details']+'</div>';
+				// '<div class="project-date">'+display_date+'</div>'+
+				'<div class="project-summary">'+project_json['eid']+'</div>'+
+				'<div class="project-summary">'+project_json['summary']+'</div>';
+				// '<button class="project-delete btn btn-default" '+
+				// 	'type="button">delete</button>';
 
 			// get the DIV to add content to
 			var details_div = $('#project' + idNumber + ' .details');

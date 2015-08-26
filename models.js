@@ -7,7 +7,7 @@ var ProjectSchema = new Mongoose.Schema({
     	"title": String,
   	"name": String,
   	"eid": String,
-  	"details": String
+  	"summary": String
 });
 
 exports.Project = Mongoose.model('Project', ProjectSchema);

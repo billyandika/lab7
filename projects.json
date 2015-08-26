@@ -2,41 +2,41 @@
 	{
 		"name": "AAA",
 		"eid": "1002010",
-		"details": "Data Here"
+		"summary": "Data Here"
 	},
 	{
 		"name": "BBB",
 		"eid": "10293012",
-		"details": "Data Here"
+		"summary": "Data Here"
 	},
 	{
 		"name": "CCC",
 		"eid": "1032945",
-		"details": "Data Here"
+		"summary": "Data Here"
 	},
 	{
 		"name": "DDD",
 		"eid": "9238474",
-		"details": "Data Here"
+		"summary": "Data Here"
 	},
 	{
 		"name": "EEE",
 		"eid": "23984924",
-		"details": "Data Here"
+		"summary": "Data Here"
 	},
 	{
 		"name": "FFF",
 		"eid": "23948457",
-		"details": "Data Here"
+		"summary": "Data Here"
 	},
 	{
 		"name": "GGG",
 		"eid": "29384957",
-		"details": "Data Here"
+		"summary": "Data Here"
 	},
 	{
 		"name": "HHH",
 		"eid": "23984758",
-		"details": "Data Here"
+		"summary": "Data Here"
 	}
 ]
