@@ -6,7 +6,7 @@ var ProjectSchema = new Mongoose.Schema({
   // fields are defined here
     	"title": String,
   	"name": String,
-  	"id": String,
+  	"eid": String,
   	"details": String
 });
 
