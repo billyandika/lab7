@@ -46,8 +46,7 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/project/:id', project.projectInfo);
-app.post('/project/new', project.addProject);
-app.post('/project/:id/delete', project.deleteProject);
+
 // Example route
 // app.get('/users', user.list);
 
