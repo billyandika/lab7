@@ -1,42 +1,42 @@
 [
 	{
 		"name": "AAA",
-		"date": "1002010",
-		"summary": "Data Here"
+		"date": "1002",
+		"summary": "Dummy Data"
 	},
 	{
 		"name": "BBB",
 		"date": "10293012",
-		"summary": "Data Here"
+		"summary": "Dummy Data"
 	},
 	{
 		"name": "CCC",
 		"date": "1032945",
-		"summary": "Data Here"
+		"summary": "Dummy Data"
 	},
 	{
 		"name": "DDD",
 		"date": "9238474",
-		"summary": "Data Here"
+		"summary": "Dummy Data"
 	},
 	{
 		"name": "EEE",
 		"date": "23984924",
-		"summary": "Data Here"
+		"summary": "Dummy Data"
 	},
 	{
 		"name": "FFF",
 		"date": "23948457",
-		"summary": "Data Here"
+		"summary": "Dummy Data"
 	},
 	{
 		"name": "GGG",
 		"date": "29384957",
-		"summary": "Data Here"
+		"summary": "Dummy Data"
 	},
 	{
 		"name": "HHH",
 		"date": "23984758",
-		"summary": "Data Here"
+		"summary": "Dummy Data"
 	}
 ]
