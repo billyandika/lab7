@@ -29,7 +29,7 @@ function initializePage() {
 
 			// compose the HTML
 			var new_html =
-				'<div class="project-date">'+project_json['date']+'</div>'+
+				'<div class="project-date">'+ID:+project_json['date']+'</div>'+
 				'<div class="project-summary">'+project_json['summary']+'</div>';
 
 			var details_div = $('#project' + idNumber + ' .details');
