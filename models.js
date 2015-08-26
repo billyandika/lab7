@@ -4,8 +4,8 @@ var Mongoose = require('mongoose');
 
 var ProjectSchema = new Mongoose.Schema({
   // fields are defined here
-    	"title": String,
-  	"eid": String,
+    "title": String,
+  	"date": String,
   	"summary": String
 });
 

@@ -36,8 +36,7 @@ function initializePage() {
 
 			// compose the HTML
 			var new_html =
-				// '<div class="project-date">'+display_date+'</div>'+
-				'<div class="project-summary">'+project_json['eid']+'</div>'+
+				'<div class="project-date">'+display_date+'</div>'+
 				'<div class="project-summary">'+project_json['summary']+'</div>';
 				// '<button class="project-delete btn btn-default" '+
 				// 	'type="button">delete</button>';
