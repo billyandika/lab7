@@ -7,6 +7,7 @@ var ProjectSchema = new Mongoose.Schema({
     "title": String,
   	"date": String,
   	"summary": String,
+  	"dob": String
 });
 
 exports.Project = Mongoose.model('Project', ProjectSchema);
