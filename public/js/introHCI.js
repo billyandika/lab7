@@ -18,18 +18,10 @@ function initializePage() {
 		var url_call = '/project/'+idNumber;
 
 		function addProjectDetails(project_json) {
-			var date_obj = new Date(project_json['date']);
-			var options = {
-				weekday: "long",
-				year: "numeric",
-				month: "long",
-				day: "numeric"
-			};
-			var display_date = date_obj.toLocaleDateString('en-US', options);
 
 			// compose the HTML
 			var new_html =
-				'<div class="project-date">'+'ID:'+project_json['date']+'</div>'+
+				'<div class="project-date">'+'Customer ID: '+project_json['date']+'</div>'+
 				'<div class="project-summary">'+project_json['summary']+'</div>';
 
 			var details_div = $('#project' + idNumber + ' .details');
