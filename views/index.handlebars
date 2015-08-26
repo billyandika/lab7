@@ -1,80 +1,113 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Dashboard</title>	
-
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="/css/introHCI.css" rel="stylesheet">
-     
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/css/introHCI.css" rel="stylesheet">
 </head>
 
 <body>
-	<div class="container">
-		<h2>Dashboard</h2>
+    <div class="container">
+        <h2>Dashboard</h2>
 
-		{{#each projects}}
-		<div class="project" id="project{{id}}">
-			<div class="thumbnail">
-				<a href="#">
-					<p>{{title}}</p>
-				</a>
-				<div class="details"></div>
-			</div>
-		</div>
-		{{/each}}
+        {{#each projects}}
 
-	<hr/>
+        <div class="project" id="project{{id}}">
+            <div class="thumbnail">
+                <a href="#">
+                <p>{{title}}</p></a>
 
-	</div>
+                <div class="details"></div>
+            </div>
+        </div>{{/each}}
+        <hr>
+    </div>
 
-	<div class="table-responsive">
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th style="width: 1px;"></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <td>Name 1</td>
-            <td>
-                <div class="btn-group">
-                        <button class="btn btn-primary dropdown-toggle" href="#" data-toggle="dropdown">
-                        <span class='glyphicon glyphicon-plus'></span> <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu stay-open pull-right" role="menu" style="padding: 15px; min-width: 300px;">
-                        <li>First menu item</li>    
-                        <li>Second menu item</li>   
-                        </ul>
-                </div>
-            </td>
-            </tr>
-            <tr>
-            <td>Name 2</td>
-            <td>
-                <div class="btn-group">
-                        <button class="btn btn-primary dropdown-toggle" href="#" data-toggle="dropdown">
-                        <span class='glyphicon glyphicon-plus'></span> <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu stay-open pull-right" role="menu" style="padding: 15px; min-width: 300px;">
-                        <li>First menu item</li>    
-                        <li>Second menu item</li>   
-                        </ul>
-                </div>
-            </td>
-            </tr>
-            </tbody>
-    </table>
-</div>
+    <div class="col-lg-6">
+        <div class="panel panel-default">
 
+            <div class="panel-body">
+                <table class="table table-condensed" style=
+                "border-collapse:collapse;">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th>Name</th>
+                            <th>ID</th>
+                            <th>Telp</th>
+                            <th>DOB</th>
+                        </tr>
+                    </thead>
 
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-	<script src="/js/introHCI.js"></script>
+					{{#each projects}}
+                    <tbody>
+                        <tr class="accordion-toggle" data-target="#demo1"
+                        data-toggle="collapse">
+                            <td><button class=
+                            "btn btn-default btn-xs"><span class=
+                            "glyphicon glyphicon-eye-open"></span></button></td>
+
+                            <td>{{title}}</td>
+
+                            <td>{{date}}</td>
+
+                            <td>{{summary}}</td>
+                        </tr>
+
+                        <tr>
+                            <td class="hiddenRow" colspan="12">
+                                <div class="accordian-body collapse" id=
+                                "demo1">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Access Key</th>
+
+                                                <th>Secret Key</th>
+
+                                                <th>Status</th>
+
+                                                <th>Created</th>
+
+                                                <th>Expires</th>
+
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td>access-key-1</td>
+
+                                                <td>secretKey-1</td>
+
+                                                <td>Status</td>
+
+                                                <td>some date</td>
+
+                                                <td>some date</td>
+
+                                                <td>
+                                                    <a class=
+                                                    "btn btn-default btn-sm glyphicon glyphicon-cog"
+                                                    href="#" style=
+                                                    "font-style: italic"></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+					{{/each}}
+
+                </table>
+            </div>
+        </div>
+    </div><script src="https://code.jquery.com/jquery.js"></script> <script src="/js/bootstrap.min.js"></script> <script src="/js/introHCI.js"></script>
 </body>
 </html>
