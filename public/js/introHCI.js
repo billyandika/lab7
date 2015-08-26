@@ -5,9 +5,6 @@ $(document).ready(function() {
 	initializePage();
 })
 
-/*
- * Function that is called when the document is ready.
- */
 function initializePage() {
 	$('.project a').click(function(e) {
 		e.preventDefault();
@@ -19,7 +16,6 @@ function initializePage() {
 
 		function addProjectDetails(project_json) {
 
-			// compose the HTML
 			var new_html =
 				'<div class="project-date">'+'Customer ID: '+project_json['date']+'</div>'+
 				'<div class="project-summary">'+project_json['summary']+'</div>';
