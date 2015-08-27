@@ -176,14 +176,20 @@
 
                     <tbody>
 
-					{{#each projects}}
-                    <tr class="clickable" data-toggle="collapse" id="project{{id}}" data-target="#{{id}}">
-            			<td>{{cid}}</td>
-        			</tr>
-        			<tr class="collapse #{{id}}">
-            			<td>{{name}}</td>
-        			</tr>
-        			{{/each}}
+			{{#each projects}}
+			<tr class="clickable" data-toggle="collapse" id="project{{id}}" data-target="#{{id}}">
+		        <td><button class="btn btn-default btn-xs"><span class=
+                            "glyphicon glyphicon-eye-open"></span></button></td>
+                <td>{{cid}}</td>
+		        <td>{{name}}</td>
+		        <td>{{phone}}</td>
+		        <!-- <td>{{address}}</td> -->
+		        <td>{{dob}}</td>        			
+			</tr>
+			<tr class="collapse" id="{{id}}">
+				<td>{{name}}</td>
+			</tr>
+			{{/each}}
 
 					{{#each projects}}
 					<div class="project" id="project{{id}}">
