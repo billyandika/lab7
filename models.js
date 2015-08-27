@@ -1,9 +1,7 @@
 
 var Mongoose = require('mongoose');
 
-
 var ProjectSchema = new Mongoose.Schema({
-  // fields are defined here
    //  "title": String,
   	// "date": String,
   	// "summary": String,
@@ -22,7 +20,7 @@ var CardSchema = new Mongoose.Schema({
 })
 
 exports.Project = Mongoose.model('Project', ProjectSchema);
-exports.Project = Mongoose.model('Card', CardSchema);
+exports.Card = Mongoose.model('Card', CardSchema);
 
 
 
