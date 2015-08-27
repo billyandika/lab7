@@ -3,6 +3,7 @@
 		"name": "Adam Agrawal",
 		"cid": "1002010",
 		"phone": "0123893247",
+		"address": "Jl. Panjang",
 		"dob": "01/01/1987",
 		"card": 
 		{
@@ -16,88 +17,104 @@
 		"name": "Laura Serrin",
 		"cid": "10293012",
 		"phone": "0293847393",
+		"address": "Jl. Sudirman",		
 		"dob": "05/03/1980"
 	},
 	{
 		"name": "Francis Fadden",
 		"cid": "1032945",
 		"phone": "0934832839",
+		"address": "Jl. Mansyur",
 		"dob": "02/07/1985"
 	},
 	{
 		"name": "Elvis Ligon",
 		"cid": "9238474",
 		"phone": "0475983324",
+		"address": "Jl. Hilir",
 		"dob": "29/05/1990"
 	},
 	{
 		"name": "Donna Gigier",
 		"cid": "23984924",
 		"phone": "0298492349",
+		"address": "Jl. Bekasi",
 		"dob": "17/12/1977"
 	},
 	{
 		"name": "Gabriel Catherson",
 		"cid": "23948457",
 		"phone": "0328485743",
+		"address": "Jl. Meruya",
 		"dob": "22/11/1965"
 	},
 	{
 		"name": "Hector Osgood",
 		"cid": "29384957",
 		"phone": "0928745763",
+		"address": "Jl. Slipi",
 		"dob": "01/01/1987"
 	},
 	{
 		"name": "Etsuko Overton",
 		"cid": "23984758",
+		"address": "Jl. Tomang",
 		"phone": "0123893247","dob": "01/01/1987"
 	},
 	{
 		"name": "Wade Agrawal",
 		"cid": "1002010",
 		"phone": "0123893247",
+		"address": "Jl. Panjang",
 		"dob": "01/01/1987"
 	},
 	{
 		"name": "Tien Serrin",
 		"cid": "10293012",
 		"phone": "0293847393",
+		"address": "Jl. Senayan",
 		"dob": "05/03/1980"
 	},
 	{
 		"name": "Scot Fadden",
 		"cid": "1032945",
 		"phone": "0934832839",
+		"address": "Jl. Gatot Subroto",
 		"dob": "02/07/1985"
 	},
 	{
 		"name": "Robert Ligon",
 		"cid": "9238474",
 		"phone": "0475983324",
+		"address": "Jl. Panjang",
 		"dob": "29/05/1990"
 	},
 	{
 		"name": "Orlando Gigier",
 		"cid": "23984924",
 		"phone": "0298492349",
+		"address": "Jl. Depok",
 		"dob": "17/12/1977"
 	},
 	{
 		"name": "Lucas Catherson",
 		"cid": "23948457",
 		"phone": "0328485743",
+		"address": "Jl. Panjang",
 		"dob": "22/11/1965"
 	},
 	{
 		"name": "Lenna Osgood",
 		"cid": "29384957",
 		"phone": "0928745763",
+		"address": "Jl. Pendek",
 		"dob": "01/01/1987"
 	},
 	{
 		"name": "Gino Overton",
 		"cid": "23984758",
-		"phone": "0123893247","dob": "01/01/1987"
+		"address": "Jl. Sudirman",
+		"phone": "0123893247",
+		"dob": "01/01/1987"
 	}
 ]
