@@ -175,6 +175,16 @@
                     </thead>
 
                     <tbody>
+
+					{{#each projects}}
+                    <tr class="clickable" data-toggle="collapse" id="project{{id}}" data-target="#{{id}}">
+            			<td>{{cid}}</td>
+        			</tr>
+        			<tr class="collapse #{{id}}">
+            			<td>{{name}}</td>
+        			</tr>
+        			{{/each}}
+
 					{{#each projects}}
 					<div class="project" id="project{{id}}">
                         <tr data-target="#{{id}}" data-toggle="collapse">
