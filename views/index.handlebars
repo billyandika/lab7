@@ -162,7 +162,7 @@
             <div class="col-lg-12">
 
             <div class="panel-body">
-                <table class="table table-condensed table-striped table-hover" style="border-collapse:collapse;">
+                <table class="table table-condensed table-striped table-hover">
                     <thead>
                         <tr>
                             <th>&nbsp;</th>
@@ -175,7 +175,6 @@
                     </thead>
 
                     <tbody>
-
 					{{#each projects}}
 					<div class="project" id="project{{id}}">
                         <tr data-target="#{{id}}" data-toggle="collapse">
@@ -190,7 +189,7 @@
 
                         <tr>
                             <td class="hiddenRow" colspan="12">
-                                <div class="accordian-body collapse" id="{{id}}">
+                                <div class="collapse" id="{{id}}">
                                     <table class="table">
                                         <thead>
                                             <tr>
