@@ -145,7 +145,7 @@
 	            </ol>
 	        </div>
 	    </div>
-                
+
         <h2>Customer List</h2>
 
 <!--         {{#each projects}}
@@ -177,7 +177,7 @@
 
 					{{#each projects}}
 					<div class="project" id="project{{id}}">
-                        <tr class="accordion-toggle" data-target="#{{id}}" data-toggle="collapse">
+                        <tr data-target="#{{id}}" data-toggle="collapse">
                             <td><button class="btn btn-default btn-xs"><span class=
                             "glyphicon glyphicon-eye-open"></span></button></td>
                             <td>{{cid}}</td>
@@ -188,7 +188,7 @@
                         </tr>
 
                         <tr>
-                            <td class="hiddenRow" colspan="12" style="visibility:hidden;">
+                            <td class="hiddenRow" colspan="12">
                                 <div class="accordian-body collapse" id="{{id}}">
                                     <table class="table">
                                         <thead>
@@ -232,7 +232,12 @@
 
     </div>
 
-
+    // <script>	
+    // 	$(document).ready(function(){
+    // 		$("accordion-toggle").click(function(){
+	   //      	$("hiddenRow").hide();
+	   //  });
+    // </script>
 
     <script src="https://code.jquery.com/jquery.js"></script> 
     <script src="/js/bootstrap.min.js"></script> 
