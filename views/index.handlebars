@@ -213,7 +213,7 @@
                                                 <th>Card Type</th>
                                                 <th>Card Holder</th>
                                                 <th>Last 4 Digits</th>
-                                                <th>City</th>
+                                                <th>Zipcode</th>
                                                 <th>Expires</th>
                                                 <th>Approve?</th>
                                             </tr>
@@ -222,18 +222,32 @@
                                         <tbody>
                                             <tr>
                                                 <th>&nbsp;</th>
-												<td>{{card.type}}</td>
-                                                <td>{{card.digits}}</td>
-                                                <td>{{card.status}}</td>
-                                                <td>{{card.expiry}}</td>
+												<td>Visa</td>
+												<td>Daniel Brown</td>
+                                                <td>8888</td>
+                                                <td>19841</td>
+                                                <td>Mar 2019</td>
+                                                <th>&nbsp;</th>
                                             </tr>
-                                             <tr>
+                                            <tr>
                                                 <th>&nbsp;</th>
 												<td>Visa</td>
+												<td>Daniel Brown</td>
                                                 <td>8888</td>
-                                                <td>Active</td>
+                                                <td>19841</td>
                                                 <td>Mar 2019</td>
+                                                <th>&nbsp;</th>
                                             </tr>
+                                            <tr>
+                                                <th>&nbsp;</th>
+												<td>{{card.type}}</td>
+                                                <td>{{card.name}}</td>
+                                                <td>{{card.digits}}</td>
+                                                <td>{{card.zipcode}}</td>
+                                                <td>{{card.expiry}}</td>
+                                                <td>{{card.valid}}</td>
+                                            </tr>
+
                                         </tbody>
 
                                     </table>
