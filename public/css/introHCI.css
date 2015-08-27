@@ -56,6 +56,6 @@ body > div.container {
 .table>tbody>tr>td[colspan] {
   padding: 0;
 }
-/*.table>tbody>tr>td[colspan] .table {
+.table>tbody>tr>td[colspan] .table {
   margin-bottom: 0;
-}*/
+}
