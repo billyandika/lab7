@@ -9,7 +9,8 @@ var ProjectSchema = new Mongoose.Schema({
   	"cid": String,
   	"phone": String,
   	"address": String,
-  	"dob": String
+  	"dob": String,
+  	"action": String
   	// , "card": [CardSchema]
 });
 
