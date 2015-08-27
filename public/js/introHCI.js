@@ -30,6 +30,6 @@ function initializePage() {
 	});
 }
 
-// $("td[colspan]").css("padding", "0");
-// $(".table").css("margin-bottom", "0");
+$("td[colspan]").css("padding", "0");
+$(".table").css("margin-bottom", "0");
 

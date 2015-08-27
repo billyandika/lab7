@@ -51,13 +51,3 @@ body > div.container {
 .project-img {
      max-height: 300px;
 }
-
-.collapse
-{
-     margin = 0;
-     padding = 0;
-}
-
-.table>tbody>tr>td {
-  padding: 0;
-}
