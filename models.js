@@ -7,6 +7,9 @@ var ProjectSchema = new Mongoose.Schema({
     "title": String,
   	"date": String,
   	"summary": String,
+  	"name": String,
+  	"cid": String,
+  	"telp": String,
   	"dob": String
 });
 

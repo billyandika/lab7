@@ -44,22 +44,22 @@
                         <tr class="accordion-toggle" data-target="#{{id}}" data-toggle="collapse">
                             <td><button class="btn btn-default btn-xs"><span class=
                             "glyphicon glyphicon-eye-open"></span></button></td>
-                            <td>{{title}}</td>
-                            <td>{{date}}</td>
-                            <td>{{summary}}</td>
+                            <td>{{name}}</td>
+                            <td>{{cid}}</td>
+                            <td>{{telp}}</td>
                             <td>{{dob}}</td>
                         </tr>
 
-                        <tr>
+                        <tr class="expand">
                             <td class="hiddenRow" colspan="12">
                                 <div class="accordian-body collapse" id="{{id}}">
                                     <table class="table">
                                         <thead>
                                             <tr>
                                                 <th>&nbsp;</th>
-                                                <th>{{title}}</th>
-                                                <th>{{date}}s</th>
-                                                <th>{{summary}}</th>
+                                                <th>Card Type</th>
+                                                <th>Last 4 digits</th>
+                                                <th>Status</th>
                                                 <th>Expires</th>
                                             </tr>
                                         </thead>
@@ -67,9 +67,9 @@
                                         <tbody>
                                             <tr>
                                                 <th>&nbsp;</th>
-												<td>MasterCard</td>
-                                                <td>7890</td>
-                                                <td>Active</td>
+												<td>{{name}}</td>
+                                                <td>{{cid}}</td>
+                                                <td>{{telp}}</td>
                                                 <td>Dec 2018</td>
                                             </tr>
                                              <tr>
