@@ -11,14 +11,18 @@ var ProjectSchema = new Mongoose.Schema({
   	"cid": String,
   	"telp": String,
   	"dob": String,
-  	"card": {
-  		"type": String,
-  		"digits": String,
-  		"status": String,
-  		"expiry": String
-  	}
+  	"card": [CardSchema]
 });
 
+var CardSchema = new Mongoose.Schema({
+		"type": String,
+		"digits": String,
+		"status": String,
+		"expiry": String
+})
+
 exports.Project = Mongoose.model('Project', ProjectSchema);
+exports.Project = Mongoose.model('Card', CardSchema);
+
 
 
