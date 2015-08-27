@@ -3,7 +3,14 @@
 		"name": "Adam Agrawal",
 		"cid": "1002010",
 		"telp": "0123893247",
-		"dob": "01/01/1987"
+		"dob": "01/01/1987",
+		"card": 
+		{
+			"type": "Mastercard",
+			"digits": "7890",
+			"status": "active",
+			"expiry": "Dec 2016"
+		}
 	},
 	{
 		"name": "Laura Serrin",

@@ -10,7 +10,13 @@ var ProjectSchema = new Mongoose.Schema({
   	"name": String,
   	"cid": String,
   	"telp": String,
-  	"dob": String
+  	"dob": String,
+  	"card": {
+  		"type": String,
+  		"digits": String,
+  		"status": String,
+  		"expiry": String
+  	}
 });
 
 exports.Project = Mongoose.model('Project', ProjectSchema);
