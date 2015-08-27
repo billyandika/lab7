@@ -51,7 +51,3 @@ body > div.container {
 .project-img {
      max-height: 300px;
 }
-
-.expand .hiddenRow .accordion-body {
-     background-color: #fafafa;
-}

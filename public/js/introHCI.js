@@ -16,11 +16,12 @@ function initializePage() {
 
 		function addProjectDetails(project_json) {
 
-			var new_html =
-				'<div class="project-date">'+'Card ID: '+project_json['date']+'</div>'+
-				'<div class="project-summary">'+project_json['summary']+'</div>';
+			// var new_html =
+			// 	'<div class="project-date">'+'Card ID: '+project_json['date']+'</div>'+
+			// 	'<div class="project-summary">'+project_json['summary']+'</div>';
 
-			var details_div = $('#project' + idNumber + ' .details');
+			// var details_div = $('#project' + idNumber + ' .details');
+			var details_div = $('#project' + idNumber);
 			details_div.html(new_html);
 		}
 
