@@ -5,11 +5,12 @@
 		"phone": "0123893247",
 		"address": "Jl. Panjang",
 		"dob": "01/01/1987",
-		"card": 
+		"ccard": 
 		{
 			"type": "Mastercard",
+			"cardname": "Adam Agrawal",
 			"digits": "7890",
-			"status": "active",
+			"zipcode": "34254",
 			"expiry": "Dec 2016"
 		},
 		"action": "Not Completed"
