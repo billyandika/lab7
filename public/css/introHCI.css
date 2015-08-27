@@ -51,3 +51,11 @@ body > div.container {
 .project-img {
      max-height: 300px;
 }
+
+
+.table>tbody>tr>td[colspan] {
+  padding: 0;
+}
+/*.table>tbody>tr>td[colspan] .table {
+  margin-bottom: 0;
+}*/
