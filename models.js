@@ -8,19 +8,19 @@ var ProjectSchema = new Mongoose.Schema({
   	"name": String,
   	"cid": String,
   	"telp": String,
-  	"dob": String,
-  	"card": [CardSchema]
+  	"dob": String
+  	// , "card": [CardSchema]
 });
 
-var CardSchema = new Mongoose.Schema({
-		"type": String,
-		"digits": String,
-		"status": String,
-		"expiry": String
-})
+// var CardSchema = new Mongoose.Schema({
+// 		"type": String,
+// 		"digits": String,
+// 		"status": String,
+// 		"expiry": String
+// })
 
 exports.Project = Mongoose.model('Project', ProjectSchema);
-exports.Card = Mongoose.model('Card', CardSchema);
+// exports.Card = Mongoose.model('Card', CardSchema);
 
 
 
