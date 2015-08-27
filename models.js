@@ -11,7 +11,8 @@ var ProjectSchema = new Mongoose.Schema({
   	"address": String,
   	"dob": String,
   	"action": String, 
-  	"ccard": { "type": String,
+  	"ccard": { 
+  		"cctype": String,
 		"digits": String,
 		"status": String,
 		"expiry": String
