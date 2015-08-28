@@ -13,12 +13,10 @@ var ProjectSchema = new Mongoose.Schema({
   	"action": String, 
   	"ccard": { 
   		"cctype": String,
+  		"ccname": String,
 		"digits": String,
-		"status": String,
+		"zipcode": String,
 		"expiry": String
-	},
-	"creditcard": {
-		"cardtype": String,
 	}
 });
 

@@ -7,14 +7,11 @@
 		"dob": "01/01/1987",
 		"ccard": 
 		{
-			"type": "Mastercard",
-			"cardname": "Adam Agrawal",
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
 			"digits": "7890",
 			"zipcode": "34254",
 			"expiry": "Dec 2016"
-		},
-		"creditcard": {
-			"cardtype": "MasterCard"
 		},
 		"action": "Not Completed"
 	},
@@ -23,7 +20,14 @@
 		"cid": "309",
 		"phone": "0293847393",
 		"address": "Jl. Sudirman",		
-		"dob": "05/03/1980",
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"dob": "05/03/1980",
 		"action": "Not Completed"
 	},
 	{
@@ -32,6 +36,14 @@
 		"phone": "0934832839",
 		"address": "Jl. Mansyur",
 		"dob": "02/07/1985",
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},
 		"action": "Not Completed"
 	},
 	{
@@ -40,7 +52,14 @@
 		"phone": "0475983324",
 		"address": "Jl. Hilir",
 		"dob": "29/05/1990",
-		"action": "Done"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Done"
 	},
 	{
 		"name": "Donna Gigier",
@@ -48,7 +67,14 @@
 		"phone": "0298492349",
 		"address": "Jl. Bekasi",
 		"dob": "17/12/1977",
-		"action": "Done"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Done"
 	},
 	{
 		"name": "Gabriel Catherson",
@@ -56,7 +82,14 @@
 		"phone": "0328485743",
 		"address": "Jl. Meruya",
 		"dob": "22/11/1965",
-		"action": "Not Completed"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Not Completed"
 	},
 	{
 		"name": "Hector Osgood",
@@ -64,14 +97,28 @@
 		"phone": "0928745763",
 		"address": "Jl. Slipi",
 		"dob": "01/01/1987",
-		"action": "Done"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Done"
 	},
 	{
 		"name": "Etsuko Overton",
 		"cid": "758",
 		"address": "Jl. Tomang",
 		"phone": "0123893247","dob": "01/01/1987",
-		"action": "Done"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Done"
 	},
 	{
 		"name": "Wade Agrawal",
@@ -79,7 +126,14 @@
 		"phone": "0123893247",
 		"address": "Jl. Panjang",
 		"dob": "01/01/1987",
-		"action": "Not Completed"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Not Completed"
 	},
 	{
 		"name": "Tien Serrin",
@@ -87,7 +141,14 @@
 		"phone": "0293847393",
 		"address": "Jl. Senayan",
 		"dob": "05/03/1980",
-		"action": "Not Completed"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Not Completed"
 	},
 	{
 		"name": "Scot Fadden",
@@ -95,7 +156,14 @@
 		"phone": "0934832839",
 		"address": "Jl. Gatot Subroto",
 		"dob": "02/07/1985",
-		"action": "Not Completed"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Not Completed"
 	},
 	{
 		"name": "Robert Ligon",
@@ -103,7 +171,14 @@
 		"phone": "0475983324",
 		"address": "Jl. Panjang",
 		"dob": "29/05/1990",
-		"action": "Done"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Done"
 	},
 	{
 		"name": "Orlando Gigier",
@@ -111,7 +186,14 @@
 		"phone": "0298492349",
 		"address": "Jl. Depok",
 		"dob": "17/12/1977",
-		"action": "Not Completed"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Not Completed"
 	},
 	{
 		"name": "Lucas Catherson",
@@ -119,7 +201,14 @@
 		"phone": "0328485743",
 		"address": "Jl. Panjang",
 		"dob": "22/11/1965",
-		"action": "Done"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Done"
 	},
 	{
 		"name": "Lenna Osgood",
@@ -127,7 +216,14 @@
 		"phone": "0928745763",
 		"address": "Jl. Pendek",
 		"dob": "01/01/1987",
-		"action": "Done"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"
+		},"action": "Done"
 	},
 	{
 		"name": "Gino Overton",

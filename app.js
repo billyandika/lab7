@@ -11,8 +11,6 @@ var mongoose = require('mongoose');
 
 var index = require('./routes/index');
 var project = require('./routes/project');
-// Example route
-// var user = require('./routes/user');
 
 // Connect to the Mongo database, whether locally or on Heroku
 // MAKE SURE TO CHANGE THE NAME FROM 'lab7' TO ... IN OTHER PROJECTS
