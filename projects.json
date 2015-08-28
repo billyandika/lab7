@@ -13,6 +13,9 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016"
 		},
+		"creditcard": {
+			"cardtype": "MasterCard"
+		},
 		"action": "Not Completed"
 	},
 	{

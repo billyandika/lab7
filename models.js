@@ -16,6 +16,9 @@ var ProjectSchema = new Mongoose.Schema({
 		"digits": String,
 		"status": String,
 		"expiry": String
+	},
+	"creditcard": {
+		"cardtype": String,
 	}
 });
 
